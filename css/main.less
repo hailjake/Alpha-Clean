@@ -1,0 +1,30 @@
+@main: #00acc1;
+@gray:  #424242;
+#main-wrapper{
+    width: 175px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+    #main-title{
+        span{
+            position: relative;
+            top: -5px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+    }
+    
+    .mdl-button {
+        background-color: @main;
+        color: #fafafa;
+        width: 100%;
+        margin-top: 10px;
+        &:hover{
+            background-color: @gray;
+        }
+        &:active{
+            background-color: @gray;
+        }
+    }
+}
